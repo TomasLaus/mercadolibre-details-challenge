@@ -31,7 +31,8 @@ export default {
       pictures: [
         {
           id: "978173-MLA32582347639_102019",
-          url: "src/assets/stitch/stitch1.jpg",
+          url:
+            "https://github.com/TomasLaus/mercadolibre-details-challenge/blob/main/src/assets/stitch/stitch1.jpg?raw=true",
           secure_url: "https://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg",
           size: "500x496",
           max_size: "1200x1192",
@@ -39,7 +40,8 @@ export default {
         },
         {
           id: "754004-MLA32299823528_092019",
-          url: "src/assets/stitch/stitch2.jpg",
+          url:
+            "https://github.com/TomasLaus/mercadolibre-details-challenge/blob/main/src/assets/stitch/stitch2.jpg?raw=true",
           secure_url: "https://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg",
           size: "500x396",
           max_size: "1200x951",
@@ -47,7 +49,8 @@ export default {
         },
         {
           id: "616691-MLA27900381255_082018",
-          url: "src/assets/stitch/stitch3.jpg",
+          url:
+            "https://github.com/TomasLaus/mercadolibre-details-challenge/blob/main/src/assets/stitch/stitch3.jpg?raw=true",
           secure_url: "https://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg",
           size: "500x500",
           max_size: "800x800",
@@ -55,7 +58,8 @@ export default {
         },
         {
           id: "918230-MLA31424182281_072019",
-          url: "src/assets/stitch/stitch4.jpg",
+          url:
+            "https://github.com/TomasLaus/mercadolibre-details-challenge/blob/main/src/assets/stitch/stitch4.jpg?raw=true",
           secure_url: "https://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg",
           size: "281x500",
           max_size: "1080x1920",
