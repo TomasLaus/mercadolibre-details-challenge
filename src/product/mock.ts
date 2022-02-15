@@ -1,11 +1,11 @@
-import {Product} from "./types";
+import {Product, Review} from "./types";
 
 export default {
   get product(): Product {
     return {
       id: "MLA741093357",
       site_id: "MLA",
-      title: "Peluche Stitch Angel Lilo 1 Metro 100cm Reales Gigante",
+      title: "Peluche Stitch Disney soft sonido 20cm",
       subtitle: null,
       seller_id: 298424621,
       category_id: "MLA1166",
@@ -31,7 +31,7 @@ export default {
       pictures: [
         {
           id: "978173-MLA32582347639_102019",
-          url: "http://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg",
+          url: "src/assets/stitch/stitch1.jpg",
           secure_url: "https://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg",
           size: "500x496",
           max_size: "1200x1192",
@@ -39,7 +39,7 @@ export default {
         },
         {
           id: "754004-MLA32299823528_092019",
-          url: "http://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg",
+          url: "src/assets/stitch/stitch2.jpg",
           secure_url: "https://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg",
           size: "500x396",
           max_size: "1200x951",
@@ -47,7 +47,7 @@ export default {
         },
         {
           id: "616691-MLA27900381255_082018",
-          url: "http://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg",
+          url: "src/assets/stitch/stitch3.jpg",
           secure_url: "https://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg",
           size: "500x500",
           max_size: "800x800",
@@ -55,7 +55,7 @@ export default {
         },
         {
           id: "918230-MLA31424182281_072019",
-          url: "http://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg",
+          url: "src/assets/stitch/stitch4.jpg",
           secure_url: "https://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg",
           size: "281x500",
           max_size: "1080x1920",
@@ -125,37 +125,15 @@ export default {
       coverage_areas: [],
       attributes: [
         {
-          id: "MAX_RECOMMENDED_AGE",
-          name: "Edad máxima recomendada",
-          value_id: null,
-          value_name: "99 años",
-          value_struct: {
-            number: 99,
-            unit: "años",
-          },
-          values: [
-            {
-              id: null,
-              name: "99 años",
-              struct: {
-                number: 99,
-                unit: "años",
-              },
-            },
-          ],
-          attribute_group_id: "",
-          attribute_group_name: "",
-        },
-        {
           id: "PRODUCT_TYPE",
           name: "Tipo de producto",
           value_id: null,
-          value_name: "peluche",
+          value_name: "Peluche",
           value_struct: null,
           values: [
             {
               id: null,
-              name: "peluche",
+              name: "Peluche",
               struct: null,
             },
           ],
@@ -211,42 +189,10 @@ export default {
           attribute_group_name: "Otros",
         },
         {
-          id: "FRANCHISE",
-          name: "Franquicia",
-          value_id: null,
-          value_name: "Stitch",
-          value_struct: null,
-          values: [
-            {
-              id: null,
-              name: "Stitch",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "GTIN",
-          name: "Código universal de producto",
-          value_id: null,
-          value_name: "8480017059031",
-          value_struct: null,
-          values: [
-            {
-              id: null,
-              name: "8480017059031",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
           id: "HEIGHT",
           name: "Altura",
           value_id: null,
-          value_name: "100 cm",
+          value_name: "20 cm",
           value_struct: {
             number: 100,
             unit: "cm",
@@ -254,43 +200,11 @@ export default {
           values: [
             {
               id: null,
-              name: "100 cm",
+              name: "20 cm",
               struct: {
-                number: 100,
+                number: 20,
                 unit: "cm",
               },
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "IS_HYPOALLERGENIC_MATERIAL",
-          name: "Es material hipoalergénico",
-          value_id: "242085",
-          value_name: "Sí",
-          value_struct: null,
-          values: [
-            {
-              id: "242085",
-              name: "Sí",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "ITEM_CONDITION",
-          name: "Condición del ítem",
-          value_id: "2230284",
-          value_name: "Nuevo",
-          value_struct: null,
-          values: [
-            {
-              id: "2230284",
-              name: "Nuevo",
-              struct: null,
             },
           ],
           attribute_group_id: "OTHERS",
@@ -300,66 +214,12 @@ export default {
           id: "MATERIAL",
           name: "Material",
           value_id: "462324",
-          value_name: "Plush",
+          value_name: "Peluche",
           value_struct: null,
           values: [
             {
               id: "462324",
-              name: "Plush",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "MIN_RECOMMENDED_AGE",
-          name: "Edad mínima recomendada",
-          value_id: null,
-          value_name: "0 años",
-          value_struct: {
-            number: 0,
-            unit: "años",
-          },
-          values: [
-            {
-              id: null,
-              name: "0 años",
-              struct: {
-                number: 0,
-                unit: "años",
-              },
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "MODEL",
-          name: "Modelo",
-          value_id: null,
-          value_name: "Stitch",
-          value_struct: null,
-          values: [
-            {
-              id: null,
-              name: "Stitch",
-              struct: null,
-            },
-          ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
-        },
-        {
-          id: "SELLER_SKU",
-          name: "SKU",
-          value_id: null,
-          value_name: "1metro",
-          value_struct: null,
-          values: [
-            {
-              id: null,
-              name: "1metro",
+              name: "Peluche",
               struct: null,
             },
           ],
@@ -370,7 +230,7 @@ export default {
           id: "WIDTH",
           name: "Ancho",
           value_id: null,
-          value_name: "50 cm",
+          value_name: "15 cm",
           value_struct: {
             number: 50,
             unit: "cm",
@@ -378,9 +238,9 @@ export default {
           values: [
             {
               id: null,
-              name: "50 cm",
+              name: "15 cm",
               struct: {
-                number: 50,
+                number: 15,
                 unit: "cm",
               },
             },
@@ -415,5 +275,60 @@ export default {
       catalog_listing: false,
       channels: ["marketplace"],
     };
+  },
+  get reviews(): Review[] {
+    return [
+      {
+        id: 1,
+        title: "Excelente",
+        content:
+          "Increíble. Tamaño, calidad, todo. No sabemos dónde meterlo de lo grande que es. 100% satisfecho.",
+        rating: 5,
+        upvotes: 4,
+        downvotes: 0,
+      },
+      {
+        id: 2,
+        title: "Excelente",
+        content:
+          "Excelente equilibrio entre precio y calidad. Mi hija está enamorada de su stitch y no sólo duerme con él sino que lo lleva a todos lados.",
+        rating: 5,
+        upvotes: 1,
+        downvotes: 0,
+      },
+      {
+        id: 3,
+        title: "Excelente",
+        content: "Divino!! a mi hija le encantó",
+        rating: 4,
+        upvotes: 4,
+        downvotes: 0,
+      },
+      {
+        id: 4,
+        title: "Exelente!",
+        content: "Exelente producto, supero mis expectativas!.",
+        rating: 5,
+        upvotes: 4,
+        downvotes: 0,
+      },
+      {
+        id: 5,
+        title: "Solo para entendidos",
+        content: "Precioso ¡¡ mi hija quedo enamorada.",
+        rating: 5,
+        upvotes: 0,
+        downvotes: 0,
+      },
+      {
+        id: 6,
+        title: "Mal cocido",
+        content:
+          "El peluche la verdad es muy parecido al de las fotos, pero ami me vino todo descosido, al otro día de comprarlo ya estaba roto, no vale la pena.",
+        rating: 2,
+        upvotes: 0,
+        downvotes: 2,
+      },
+    ];
   },
 };

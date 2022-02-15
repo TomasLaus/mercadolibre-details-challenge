@@ -1,4 +1,4 @@
-interface ProductPicture extends Record<string, any> {
+export interface ProductPicture extends Record<string, any> {
   id: string;
   url: string;
 }
@@ -11,4 +11,22 @@ export interface Product extends Record<string, any> {
   sold_quantity: number;
   condition: string;
   pictures: ProductPicture[];
+}
+
+export interface Review {
+  id: number;
+  title: string;
+  content: string;
+  rating: number;
+  upvotes: number;
+  downvotes: number;
+}
+
+export interface Promoted {
+  id: number;
+  imageUrl: string;
+  imageAlt: string;
+  title: string;
+  formattedPrice: string;
+  freeShipping: boolean;
 }
